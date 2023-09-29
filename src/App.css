@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-y: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+.highlight {
+  margin-left: 7px;
+  background-image: linear-gradient(to bottom, transparent 50%, #ffcc00 50%);
+  border-radius: 6px;
+  padding: 3px 6px;
+}
